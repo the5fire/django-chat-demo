@@ -1,0 +1,78 @@
+/*
+	author:the5fire
+	blog:http://www.the5fire.net
+	date:2012-04-09
+*/
+html {
+	margin:0;
+	padding:0;
+}
+body {
+	margin:0;
+	font-size:14px;
+}
+.wrap {
+	background-color: #B26F4C;
+	width: 100%;
+	height: 800px;
+}
+
+
+.main {
+	width: 50%;
+	margin: auto;
+	height: 700px;
+	background-color: #fff;
+}
+
+.head {
+	height: 40px;
+	padding-top: 10px;
+	border-bottom: 1px solid #000;
+	font-size:20px;
+}
+
+.head span{
+	margin: auto;
+	width: auto;
+}
+
+.screen {
+	height:400px;
+	width:auto;
+	overflow-y: scroll;
+	background:#CCCCCC;
+	border: 2px solid #000;
+}
+
+.screen .msgtitle {
+	color:blue;
+}
+
+.send_message {
+	margin-top: 5px;
+}
+
+.send_message .message {
+	width:60%;
+	float:left;
+}
+
+.send_message .message textarea {
+	width:100%;
+}
+
+.send_message .opt {
+	margin-right:10px;
+	margin-top:10px;
+	float:right;
+}
+
+
+
+
+
+
+
+
+
