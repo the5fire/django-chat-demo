@@ -11,7 +11,7 @@
         <div class="head">
           <span>欢迎光临the5fire聊天室，当前时间：<label id="nowdate"></label></span>
         </div>
-        <div class="screen">
+        <div id="screen" class="screen">
           <ul class="chat_list">
             
           </ul>
@@ -34,6 +34,6 @@
   <script src="/site_media/chat/js/chat.js"></script>
     
   <script type="text/template" id="item-template">
-    <div class="msgtitle"><%=username %> <%=date %></div><p><%=content %></p>
+    <div class="msgtitle"><%=username %> <%=date %><a id="destroy">删除</a></div><p><%=content %></p>
   </script>
 </html>

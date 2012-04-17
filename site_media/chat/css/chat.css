@@ -63,9 +63,10 @@ body {
 }
 
 .send_message .opt {
-	margin-right:10px;
+	margin-right:100px;
 	margin-top:10px;
 	float:right;
+	width:20%;
 }
 
 
