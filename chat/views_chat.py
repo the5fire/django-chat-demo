@@ -22,12 +22,14 @@ def loadpage(request):
 '''
 public
 @desc 简单的控制添加和查询
+        - 如果是POST 请求, 说明是 在 发消息
+        - 如果是GET 请求, 说明是刚打开web页面,需要获取历史消息记录
 '''
 def chat(request):
     if request.method == 'POST':
-        return say(request)
+        return say(request)           # 发一条消息
     elif request.method == 'GET':
-        return chatAllLog(request)
+        return chatAllLog(request)    # 获取历史消息记录
     else:
         return HttpResponse('<h1>access deny</h1>')
 
