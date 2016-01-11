@@ -40,7 +40,7 @@ $(function () {
     });
 
     var ChatList = Backbone.Collection.extend({
-        url: '/chat/',
+        url: '/chat/',  // 通过URL 和 后端代码绑定: 后端: urls.py ## (r'^chat/$', views_chat.chat),
         model: Chat
     });
 
