@@ -10,6 +10,10 @@
 
 ## 使用 virtualenv 运行项目:
 
+- 更新: 只需要 执行 本目录下 run_server.sh 脚本,即可自动初始化项目,并运行.
+- 需要先安装 virtualenv 工具. (pip install virtualenv)
+
+
 ```bash
 
 virtualenv --python=python2.7 --no-site-packages ./py2env
